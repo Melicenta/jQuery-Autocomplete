@@ -10,3 +10,33 @@
 .autocomplete-group strong { font-weight: bold; font-size: 16px; color: #000; display: block; border-bottom: 1px solid #000; }
 
 input { font-size: 28px; padding: 10px; border: 1px solid #CCC; display: block; margin: 20px 0; }
+
+/* SASS edition with Phoenix design */
+/*
+*
+*
+* .autocomplete-suggestions {
+*    background: #FFF;
+*
+*    cursor: default;
+*   overflow: auto;
+*
+*    border: 1px solid #b2b2b2;
+*    border-radius: 4px;
+*    margin-top: 5px;
+*
+*}
+
+
+*.autocomplete-suggestion {
+*    padding: 7px 5px;
+*    white-space: nowrap;
+*    overflow: hidden;
+*    border-bottom: 1px solid #F2F2F2;
+*
+*     &:last-child{
+*       border-bottom: 0 solid #FFFFFF;
+*     }
+*}
+
+*/
